@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Escolha os produtos da Oba Chocolate e envie a encomenda pelo WhatsApp.">
+  <title>Loja Oba Chocolate</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="shop-page">
+  <a class="skip-link" href="#produtos">Pular para os produtos</a>
+  <header class="shop-header"><a class="brand" href="index.html">OBA<span>│</span>CHOCOLATE</a><nav><a href="index.html">Início</a><a href="#produtos">Produtos</a><a href="#carrinho">Meu pedido <b id="cart-count">0</b></a></nav></header>
+  <main>
+    <section class="shop-hero"><div><p class="eyebrow">Encomende do seu jeito</p><h1>Escolha. Monte.<br><em>Encante.</em></h1><p>Selecione os itens, defina as quantidades e envie sua lista de encomenda para o atelier pelo WhatsApp.</p><a class="button button-primary" href="#produtos">Ver opções <span>↓</span></a></div><img src="assets/images/oba-produtos-artesanais.png" alt="Trufas e palhas italianas artesanais da Oba Chocolate"></section>
+    <section class="shop-content" id="produtos"><div class="shop-intro"><p class="eyebrow">A loja Oba</p><h2>Feito para a sua ocasião.</h2><p>Os valores e a disponibilidade são confirmados pelo atelier no momento da encomenda.</p></div><div class="filter-bar" aria-label="Filtrar produtos"><button class="is-active" data-filter="all">Tudo</button><button data-filter="classicos">Clássicos</button><button data-filter="fit">Fit &amp; Vegano</button><button data-filter="presentes">Presentes</button></div><div class="shop-grid" id="shop-grid"></div></section>
+    <section class="cart-panel" id="carrinho" aria-labelledby="cart-title"><div><p class="eyebrow">Seu pedido</p><h2 id="cart-title">Sua seleção</h2><p class="cart-help">Itens com preço no catálogo já entram no subtotal. Os demais são confirmados pelo atelier.</p></div><div class="cart-box"><ul id="cart-items"><li class="empty-cart">Você ainda não adicionou itens.</li></ul><div class="cart-footer"><span id="cart-summary">0 itens selecionados</span><strong id="cart-total">Subtotal: R$ 0,00</strong><small id="cart-note"></small><a id="whatsapp-order" class="button button-primary is-disabled" href="#carrinho" rel="noreferrer">Abrir pedido no WhatsApp <span>↗</span></a></div></div></section>
+  </main><footer><p>OBA│CHOCOLATE <span>•</span> Atelier desde 2015</p><a href="https://www.instagram.com/obachocolate/" target="_blank" rel="noreferrer">Instagram</a></footer><script src="assets/js/loja.js"></script>
+</body></html>
